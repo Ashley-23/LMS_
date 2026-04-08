@@ -2,7 +2,7 @@
 # EXECUTION DU PROJET
 
 ## Récupération du projet
-git clone git@github.com:Ashley-23/LMS.git
+git clone git@github.com:Ashley-23/LMS_.git
 ou
 dézipper le fichier envoyé
 
