@@ -27,9 +27,9 @@ Exécuter les commandes
   et
 * npm run build 
 
+## Lancement de l'application 
 
-
-
+Il vous suffit de lancer la commance php artisan serve et de suivre le lien qui s'affiche dans la console
 
 
 
