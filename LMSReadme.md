@@ -1,14 +1,31 @@
 
-#modifications enseignant
+# EXECUTION DU PROJET
 
-L'enseignant ne peut modifié et supprimé que les cours qu'il a créé.
-Tous les enseignants ont la capacité de voir la liste des formations et les détails d'une formation. 
+## Récupération du projet
+git clone git@github.com:Ashley-23/LMS.git
+ou
+dézipper le fichier envoyé
 
+## Configuration de l'environnement
 
+Exécuter la commande : cp .env.example .env
 
+Le fichier .env.example contient toutes les informations nécessaires à la connexion avec la base de donnée.
 
+Exécuter la commande : php artisan key:generate
 
+Elle vous permettra de générer une clef d'application unique pour le chiffrement des données.
 
+## Installation des dépendances PHP
+
+composer install
+
+## Installation des dependances fronts (vite & tailwind)
+
+Exécuter les commandes
+* npm install
+  et
+* npm run build 
 
 
 
