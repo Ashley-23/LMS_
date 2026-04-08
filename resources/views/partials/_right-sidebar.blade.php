@@ -1,6 +1,6 @@
 <div class="left-side-bar">
     <div class="brand-logo">
-        <a href="index.html">
+        <a href="{{route('dashboard')}}">
             <img src="vendors/images/deskapp-logo.svg" alt="" class="dark-logo">
             <img src="vendors/images/deskapp-logo-white.svg" alt="" class="light-logo">
         </a>
@@ -17,7 +17,8 @@
                     </a>
                     <ul class="submenu">
                         <li><a href="{{ route('formations.create') }}">Ajouter</a></li>
-                        <li><a href="{{ route('formations.index') }}">Lister</a></li>
+                        <li><a href="{{ route('formations.lister') }}">Lister</a></li>
+                        <li><a href="{{ route('formations.index') }}">Modifier</a></li>
                     </ul>
                 </li>
                <li class="dropdown">
@@ -29,7 +30,7 @@
                         <li><a href="{{ route('questions.index') }}">Lister</a></li>
                     </ul>
                 </li>
-                  
+
                 <li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
                         <span class="micon dw dw-edit2"></span><span class="mtext">Quizz</span>
@@ -199,7 +200,7 @@
                         <span class="mtext">Landing Page <img src="vendors/images/coming-soon.png" alt="" width="25"></span>
                     </a>
                 </li>--}}
-            </ul> 
+            </ul>
         </div>
     </div>
 </div>

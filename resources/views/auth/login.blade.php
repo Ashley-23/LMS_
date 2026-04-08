@@ -18,7 +18,7 @@
 		</div>
 		<div class="login-menu">
 			<ul>
-				<li><a href="register.html">Créer mon compte</a></li>
+{{--				<li><a href="register.html">Créer mon compte</a></li>--}}
 			</ul>
 		</div>
 	</div>
@@ -87,10 +87,10 @@
 								<div class="input-group mb-0">
 									<input class="btn btn-primary btn-lg btn-block" type="submit" value="Me connecter">
 								</div>
-								<div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">Ou</div>
-								<div class="input-group mb-0">
-									<a class="btn btn-outline-primary btn-lg btn-block" href="register.html">Me créer un comte</a>
-								</div>
+{{--								<div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">Ou</div>--}}
+{{--								<div class="input-group mb-0">--}}
+{{--									<a class="btn btn-outline-primary btn-lg btn-block" href="register.html">Me créer un comte</a>--}}
+{{--								</div>--}}
 							</div>
 						</div>
 					</form>

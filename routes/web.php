@@ -12,9 +12,9 @@ Route::get('/', function () {
 	return view('auth.login');
 });
 
-Route::view('test', 'test', ['formations' => \App\Models\Formation::with('user')->withCount('chapters')->get()]);
+//Route::view('test', 'test', ['formations' => \App\Models\Formation::with('user')->withCount('chapters')->get()]);
 
-Route::view('test2', 'test2', ['formations' => \App\Models\Formation::with('user')->withCount('chapters')->get()]);
+Route::view('test2', 'test2', ['formations' => \App\Models\Formation::with('user')->withCount('chapters')->get()])->name('formations.lister');
 // Route::get('/subchapters/{id}/quizzes', [QuizzController::class, 'quizzes']);
 
 Route::get('/dashboard', function () {
